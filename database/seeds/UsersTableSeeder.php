@@ -9,16 +9,16 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         User::create([
-            'name' => 'Kilua',
-            'email' => 'kiluaws@gmail.com',
+            'name' => '',
+            'email' => '',
             'role' => 'admin',
             'password' => bcrypt(''),
             'settings' => '{"pagination": 8}',
         ]);
 
         User::create([
-            'name' => 'Abonne',
-            'email' => 'abonne@fablab.fr',
+            'name' => '',
+            'email' => '',
             'password' => bcrypt(''),
             'settings' => '{"pagination": 8}',
         ]);
