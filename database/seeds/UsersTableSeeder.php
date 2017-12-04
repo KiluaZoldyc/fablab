@@ -12,14 +12,14 @@ class UsersTableSeeder extends Seeder
             'name' => 'Kilua',
             'email' => 'kiluaws@gmail.com',
             'role' => 'admin',
-            'password' => bcrypt('admin'),
+            'password' => bcrypt(''),
             'settings' => '{"pagination": 8}',
         ]);
 
         User::create([
             'name' => 'Abonne',
             'email' => 'abonne@fablab.fr',
-            'password' => bcrypt('user'),
+            'password' => bcrypt(''),
             'settings' => '{"pagination": 8}',
         ]);
     }
